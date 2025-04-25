@@ -33,11 +33,11 @@ cd cryptography
 
 Compile the Code:
 
-javac app.java
+javac com/example/cryptography_app/*.java
 
 Run the Application:
 
-java app
+java app.java
 
 Ensure you have Java installed and configured in your system’s PATH.
 
