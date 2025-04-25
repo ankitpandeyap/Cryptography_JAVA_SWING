@@ -1,6 +1,6 @@
 🔐 CRYPTOGRAPHY_JAVA_SWING
 
-A simple Java Swing-based desktop application that allows users to encrypt and decrypt string messages using a symmetric key, and send encrypted messages via email using JavaMail API. The receiver must possess the same key to successfully decrypt the message.
+A simple Java Swing-based desktop application that allows users to encrypt and decrypt string messages using a symmetric key and send encrypted messages via email using the JavaMail API. The receiver must possess the same key to decrypt the message.
 
 📌 Features
 
@@ -12,7 +12,7 @@ A simple Java Swing-based desktop application that allows users to encrypt and d
 
 🔐 Secure key sharing (user must share key manually)
 
-✅ Uses the same key for both encryption and decryption (symmetric cryptography)
+✅ Same key used for encryption and decryption
 
 🛠️ Tech Stack
 
@@ -22,24 +22,34 @@ Java Swing – for the GUI
 
 JavaMail API – for sending emails
 
-Cryptography (Symmetric Key) – for encryption and decryption
+Symmetric Key Cryptography – for encryption & decryption
 
-🚀 Setup Instructions
+📦 Prerequisites
 
-Clone the Repository:
+Make sure you have the following installed:
+
+✅ Java JDK 8+
+
+✅ Maven (for dependency management and packaging)
+
+✅ Internet connection (for sending emails via SMTP)
+
+🚀 How to Run Locally
+
+Clone the Repository
 
 git clone https://github.com/your-username/cryptography.git
 cd cryptography
 
-Compile the Code:
+Package the App (Executable JAR)
 
-javac com/example/cryptography_app/*.java
+mvn clean package
 
-Run the Application:
+Run the Application
 
-java app.java
+java -jar target/cryptography-app-1.0.jar
 
-Ensure you have Java installed and configured in your system’s PATH.
+💡 Alternatively, double-click the generated .jar file (only works if properly shaded and you have a GUI environment).
 
 📸 Screenshots
 

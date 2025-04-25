@@ -1,11 +1,13 @@
 package com.example.cryptography_app;
 
+import java.awt.Color;
 import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.Base64;
 import java.util.Properties;
 
+import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -43,7 +45,12 @@ public class CryptographyApp {
         frame.setSize(1200, 700);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setLayout(null);
-
+        frame.getContentPane().setBackground(new java.awt.Color(220,225,225));
+        
+        
+        ImageIcon icon = new ImageIcon("src/main/resources/key.png");
+        frame.setIconImage(icon.getImage()); 
+        
         // Encryption Section
         JLabel encryptLabel = new JLabel("Encryption");
         encryptLabel.setFont(new Font("Arial", Font.BOLD, 18));
