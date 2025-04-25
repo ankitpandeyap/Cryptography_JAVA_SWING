@@ -41,7 +41,7 @@ java app
 
 Ensure you have Java installed and configured in your system’s PATH.
 
-📸 Screenshots (Optional)
+📸 Screenshots
 
 ![image](https://github.com/user-attachments/assets/67d0d21f-dc77-44c1-ae9e-dde5457db415)
 
