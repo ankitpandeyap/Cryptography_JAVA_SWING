@@ -1,0 +1,27 @@
+# Java build and IDE folders
+target/
+.metadata/
+.settings/
+
+# RAR archives
+*.rar
+
+# Optional: Add more common Java exclusions
+*.class
+*.log
+*.jar
+*.war
+*.ear
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# Eclipse
+.project
+.classpath
+
+# OS files
+.DS_Store
+Thumbs.db
